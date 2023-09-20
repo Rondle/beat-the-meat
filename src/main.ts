@@ -5,7 +5,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
 
 @Component({
   selector: 'my-app',
-  standalone: true, 
+  standalone: true,
   imports: [CommonModule],
   template: `
     <h1>Hello from {{ name }}!</h1>
